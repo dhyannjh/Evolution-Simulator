@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>fea73568-1c0e-4327-88c4-151c0a5eb8e0</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Evolution_Simulater.py</StartupFile>
+    <StartupFile>main.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,11 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Evolution_Simulater.py" />
+    <Compile Include="Astatistics.py" />
+    <Compile Include="config.py" />
+    <Compile Include="entity.py" />
+    <Compile Include="food.py" />
+    <Compile Include="main.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
