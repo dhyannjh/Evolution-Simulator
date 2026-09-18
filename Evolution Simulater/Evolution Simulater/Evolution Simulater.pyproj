@@ -25,7 +25,9 @@
     <Compile Include="config.py" />
     <Compile Include="entity.py" />
     <Compile Include="food.py" />
+    <Compile Include="gui.py" />
     <Compile Include="main.py" />
+    <Compile Include="simulation.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
